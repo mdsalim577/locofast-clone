@@ -1,0 +1,107 @@
+.Modal{
+    width: 1100px;
+    height: 700px;
+    z-index:10;
+    /* position: absolute; */
+    /* z-index: 20; */
+    padding: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    top: 64px;
+    left: calc(50% - 1100px/2);
+    position: absolute;
+    font-family: sans-serif;
+}
+
+
+.header{
+    display:flex;
+    /* flex:0.1 */
+    /* height: -6rem; */
+    align-items: center;
+
+    
+}
+.assign_to_fac{
+    padding-right: 2rem;
+    margin-top: -7rem;
+}
+
+.header_title{
+    flex:1;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    
+    
+/* identical to box height, or 140% */
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+/* .Modal_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:24px
+
+}
+.body_pic{
+    flex:25
+}
+
+.body_right{
+    flex:75;
+    display: flex;
+    flex-direction: column;
+} */
+.assign_to_fac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.back_arrow{
+    flex:20
+}
+.text{
+    flex:80
+    
+}
+.quantity{
+    display: flex;
+}
+.quantity_input{
+    flex:1;
+}
+.availability{
+    flex:1;
+}
+.footer{
+    /* flex:1 */
+}
+.insert{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.confirm{
+    display: block;
+}
+.next_page{
+    display: flex;
+    float:right;
+}
